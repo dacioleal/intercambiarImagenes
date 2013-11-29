@@ -10,4 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) CALayer *capaSuperior;
+@property (strong, nonatomic) CALayer *capaInferior;
+@property (strong, nonatomic) UIImage *tigreImage;
+@property (strong, nonatomic) UIImage *florImage;
+
+- (IBAction)cambiarImagen:(id)sender;
+
+
 @end

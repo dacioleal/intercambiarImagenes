@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3EB9F4E184496D10098AE4B /* AnimacionGiro.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EB9F4D184496D10098AE4B /* AnimacionGiro.m */; };
 		F3EF8AE01843589C00665EAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF8ADF1843589C00665EAD /* Foundation.framework */; };
 		F3EF8AE21843589C00665EAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF8AE11843589C00665EAD /* CoreGraphics.framework */; };
 		F3EF8AE41843589C00665EAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF8AE31843589C00665EAD /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		F3EF8B011843589D00665EAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3EF8AE31843589C00665EAD /* UIKit.framework */; };
 		F3EF8B091843589D00665EAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3EF8B071843589D00665EAD /* InfoPlist.strings */; };
 		F3EF8B0B1843589D00665EAD /* pruebaLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3EF8B0A1843589D00665EAD /* pruebaLayerTests.m */; };
+		F3EF8B151843590700665EAD /* tigre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3EF8B141843590700665EAD /* tigre.jpg */; };
+		F3EF8B171843713600665EAD /* flor_azul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3EF8B161843713600665EAD /* flor_azul.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F3EB9F4C184496D10098AE4B /* AnimacionGiro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimacionGiro.h; sourceTree = "<group>"; };
+		F3EB9F4D184496D10098AE4B /* AnimacionGiro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimacionGiro.m; sourceTree = "<group>"; };
 		F3EF8ADC1843589C00665EAD /* pruebaLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebaLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EF8ADF1843589C00665EAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3EF8AE11843589C00665EAD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		F3EF8B061843589D00665EAD /* pruebaLayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pruebaLayerTests-Info.plist"; sourceTree = "<group>"; };
 		F3EF8B081843589D00665EAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3EF8B0A1843589D00665EAD /* pruebaLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pruebaLayerTests.m; sourceTree = "<group>"; };
+		F3EF8B141843590700665EAD /* tigre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigre.jpg; sourceTree = "<group>"; };
+		F3EF8B161843713600665EAD /* flor_azul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flor_azul.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3EB9F4F184496D80098AE4B /* AnimacionGiro */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB9F4C184496D10098AE4B /* AnimacionGiro.h */,
+				F3EB9F4D184496D10098AE4B /* AnimacionGiro.m */,
+			);
+			name = AnimacionGiro;
+			sourceTree = "<group>";
+		};
 		F3EF8AD31843589C00665EAD = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +128,8 @@
 		F3EF8AE51843589C00665EAD /* pruebaLayer */ = {
 			isa = PBXGroup;
 			children = (
+				F3EF8B141843590700665EAD /* tigre.jpg */,
+				F3EF8B161843713600665EAD /* flor_azul.jpg */,
 				F3EF8AEE1843589D00665EAD /* AppDelegate.h */,
 				F3EF8AEF1843589D00665EAD /* AppDelegate.m */,
 				F3EF8AF11843589D00665EAD /* Main.storyboard */,
@@ -119,6 +137,7 @@
 				F3EF8AF51843589D00665EAD /* ViewController.m */,
 				F3EF8AF71843589D00665EAD /* Images.xcassets */,
 				F3EF8AE61843589C00665EAD /* Supporting Files */,
+				F3EB9F4F184496D80098AE4B /* AnimacionGiro */,
 			);
 			path = pruebaLayer;
 			sourceTree = "<group>";
@@ -231,6 +250,8 @@
 				F3EF8AF81843589D00665EAD /* Images.xcassets in Resources */,
 				F3EF8AEA1843589C00665EAD /* InfoPlist.strings in Resources */,
 				F3EF8AF31843589D00665EAD /* Main.storyboard in Resources */,
+				F3EF8B151843590700665EAD /* tigre.jpg in Resources */,
+				F3EF8B171843713600665EAD /* flor_azul.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +272,7 @@
 			files = (
 				F3EF8AF61843589D00665EAD /* ViewController.m in Sources */,
 				F3EF8AF01843589D00665EAD /* AppDelegate.m in Sources */,
+				F3EB9F4E184496D10098AE4B /* AnimacionGiro.m in Sources */,
 				F3EF8AEC1843589C00665EAD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,7 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pruebaLayer/pruebaLayer-Prefix.pch";
 				INFOPLIST_FILE = "pruebaLayer/pruebaLayer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pruebaLayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,7 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pruebaLayer/pruebaLayer-Prefix.pch";
 				INFOPLIST_FILE = "pruebaLayer/pruebaLayer-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pruebaLayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,7 +438,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "pruebaLayerTests/pruebaLayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pruebaLayerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,7 +457,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pruebaLayer/pruebaLayer-Prefix.pch";
 				INFOPLIST_FILE = "pruebaLayerTests/pruebaLayerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = pruebaLayerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -460,6 +482,7 @@
 				F3EF8B101843589D00665EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3EF8B111843589D00665EAD /* Build configuration list for PBXNativeTarget "pruebaLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +491,7 @@
 				F3EF8B131843589D00665EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
