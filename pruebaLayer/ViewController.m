@@ -64,12 +64,7 @@
     
     AnimacionGiro *animacionGiro = [[AnimacionGiro alloc] init];
     [animacionGiro animarCapa:capaSuperior andCapa:capaInferior inView:self];
-    
-//    CALayer *temp = [CALayer layer];
-//    temp = capaSuperior;
-//    capaSuperior = capaInferior;
-//    capaInferior = temp;
-    
+        
     
 }
 
